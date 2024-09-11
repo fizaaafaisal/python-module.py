@@ -1,0 +1,17 @@
+#1
+import math
+#help(math)
+print (math.pi)
+print(math.factorial(43))
+
+#2
+import math as m
+print(m.pi)
+
+#3
+from math import factorial,pi,floor,ceil
+print(factorial(43),pi,floor(7.6),ceil(5.4))
+
+#4
+from math import *
+print(pi)
