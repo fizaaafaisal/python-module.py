@@ -1,0 +1,18 @@
+from random import *
+print(random()) #[0.0-1.0]
+
+
+print(randint(1000,9999))
+
+print(choice(["stone","paper","scissors"]))  #random
+
+x=[1,2,3,4]
+shuffle(x) #random 
+print(x)
+
+from  string import *
+print(ascii_letters)
+print(digits)
+print(punctuation)
+print(printable)
+
